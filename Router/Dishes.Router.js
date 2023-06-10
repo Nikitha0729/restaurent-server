@@ -9,7 +9,7 @@ import {
 
 const router = Router();
 
-router.get("/records", getRecords);
+router.get("/record", getRecords);
 
 router.get("/record/:id", getRecord);
 
